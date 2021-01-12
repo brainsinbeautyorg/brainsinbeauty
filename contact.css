@@ -1,0 +1,87 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%; 
+  }
+  
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url('https://i.pinimg.com/originals/1f/06/6d/1f066d8e466d4c56544b5df243ed4a51.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+      
+.nav{
+  list-style:none;
+  margin:0;
+  padding-top: 20px;
+  text-align:center;
+}
+.nav li{
+  display:inline;
+}
+.nav a{
+  display:inline-block;
+  padding:10px;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.nav a:hover {
+  color: #f4c1c1;
+}
+
+label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#contactForm {
+  text-align: center;
+}
+
+table {
+  color: #f5f5f5;
+  padding-top: 40px;
+}
+
+th {
+text-align: center;
+vertical-align: middle;
+}
+
+td {
+width: 44%;
+vertical-align: middle;
+padding: 10px;
+}
+
+small {
+width: 2%;
+}
+
+.p {
+  text-align: center;
+  font-style: italic;
+}
+
+#text {
+  text-align: center;
+  text-justify: newspaper;
+}
+
+@media screen and (max-width: 830px) {
+  .column {
+    width: 90%;
+    display: block;
+  }
+}
+
+.logo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
