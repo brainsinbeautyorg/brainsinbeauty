@@ -26,6 +26,10 @@ body {
     padding: 10px;
   }
 
+ .center3 {
+      text-align: center;
+  }
+
 .mission {
     height:fit-content;
     width: fit-content;
