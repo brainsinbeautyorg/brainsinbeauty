@@ -67,15 +67,33 @@
     </div>
     <br><br><br>
 
-    <div class=d>REGISTER TODAY!</div>
+<div class=d>REGISTER TODAY!</div>
 
         <a href="https://www.eventbrite.com/e/beauty-meets-brains-conference-tickets-160452141675?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=escb" target="blank">
             <img class="imgcenter" src="https://i.imgur.com/HkfTv3U.gif" style="width: 75%;">
         </a>
 
-        <a href="https://www.eventbrite.com/e/beauty-meets-brains-conference-tickets-160452141675?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=escb " target="blank" style="text-decoration: none;">
-            <button class="button">Ready to Register? We got you!</button>
-        </a>
+    <!-- Noscript content for added SEO -->
+    <noscript><a href="https://www.eventbrite.com/e/beauty-meets-brains-conference-tickets-160452141675" rel="noopener noreferrer" target="_blank"></noscript>
+        <!-- You can customize this button any way you like -->
+        <button id="eventbrite-widget-modal-trigger-160452141675" type="button" class="button">Buy Tickets</button>
+        <noscript></a>Ready to Register? We got you!</noscript>
+        
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+        
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+        
+            window.EBWidgets.createWidget({
+                widgetType: 'checkout',
+                eventId: '160452141675',
+                modal: true,
+                modalTriggerElementId: 'eventbrite-widget-modal-trigger-160452141675',
+                onOrderComplete: exampleCallback
+            });
+        </script>
 
             <div class=g>
                 <Br>
@@ -86,6 +104,10 @@ Based on your admission, corresponding links to each workshop will be emailed to
             </div>
 
     <div class=d>ADMISSION BENEFITS</div>
+
+                <img class="imgcenter" src="https://i.imgur.com/GpKNSGv.jpg" width="40%">
+
+                <br>
 
     <div class=d>BECOME AN AMBASSADOR</div>
 
@@ -122,8 +144,11 @@ Based on your admission, corresponding links to each workshop will be emailed to
                 <button class="button">I Want to Become an Ambassador!</button>
             </a>
 
+            <br>
+
     <div class=sponsors>
-        <img class="imgcenter" src="https://i.imgur.com/LnTiUDY.gif">
+        <img class="imgcenter" src="https://i.imgur.com/1Znaqsa.gif">
     </div>
+
 
     </div>
