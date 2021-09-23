@@ -38,24 +38,19 @@ label {
   font-size: 16px;
 }
 
-#contactForm {
-  text-align: center;
-}
 
 table {
   color: #f5f5f5;
   padding-top: 40px;
+  align-content: center;
 }
 
-th {
-text-align: center;
-vertical-align: middle;
-}
 
 td {
 width: 44%;
 vertical-align: middle;
 padding: 10px;
+align-content: center;
 }
 
 small {
@@ -90,4 +85,51 @@ width: 2%;
 
 #x {
   border: none;
+}
+
+  /* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 70%;
+  align-content: center;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: pink;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.container .btn:hover {
+  background-color: palevioletred;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text {
+  color: #f5f5f5;
+}
+
+.td {
+  align-content: center;
 }
