@@ -25,6 +25,10 @@ body {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 2vh;
+  padding: 0 3vw;
 }
 
 @media screen and (max-width: 830px) {
